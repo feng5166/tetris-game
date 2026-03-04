@@ -444,7 +444,7 @@ overlayBtn.addEventListener('click', startGame);
 (function init() {
   board = createBoard();
   drawBoard();
-  overlayTitle.textContent = '俄罗斯方块';
+  overlayTitle.textContent = '超级俄罗斯方块';
   overlayScore.textContent = '准备好了吗？';
   overlayBtn.textContent = '开始游戏';
 })();
